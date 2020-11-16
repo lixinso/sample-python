@@ -40,3 +40,11 @@ student_objects = [
 ]
 sorted(student_objects, key=lambda student: student.age)   # sort by age
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+
+
+
+sorted(student_tuples, key=itemgetter(2), reverse=True)
+[('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
+>>>
+sorted(student_objects, key=attrgetter('age'), reverse=True)
+[('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
