@@ -48,3 +48,6 @@ sorted(student_tuples, key=itemgetter(2), reverse=True)
 >>>
 sorted(student_objects, key=attrgetter('age'), reverse=True)
 [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
+
+
+# https://www.geeksforgeeks.org/python-sort-python-dictionaries-by-key-or-value/
