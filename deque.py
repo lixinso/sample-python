@@ -21,6 +21,8 @@ deque(['b', 'c'])
 deque(['b'])
 >>>
 
+>>> q.appendleft('d')
+
 
 
 # https://docs.python.org/3/library/collections.html#collections.deque
