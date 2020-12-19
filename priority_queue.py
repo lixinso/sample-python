@@ -1,3 +1,13 @@
+
+'''
+
+The Python priority queue is built on the heapq module, which is basically a binary heap.
+
+
+
+'''
+
+
 from queue import PriorityQueue
 
 q = PriorityQueue()
