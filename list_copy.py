@@ -10,3 +10,6 @@
 >>> arr_copy
 ['a', 'c']
 
+
+
+arr_copy = arr[:]
